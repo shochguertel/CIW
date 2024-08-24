@@ -1,0 +1,96 @@
+# [2] Modeling Using Desmos Graphs 
+desmos-fig-desmosplaygraph: "https://www.desmos.com/calculator/yygtduzd60?embed"
+# [2.1] Consumption Bundles
+desmos-fig-cbundles: "https://www.desmos.com/calculator/tzah96jajq?embed"
+# [2.2] 3 Consumption Bundles
+desmos-fig-3cbundles: "https://www.desmos.com/calculator/3bbc435e02?embed"
+# [2.3] Convexity Indifference Curves
+desmos-fig-icconvex: "https://www.desmos.com/calculator/fvxzpfj9pe?embed"
+# [2.4] IC Map
+desmos-fig-icmap: "https://www.desmos.com/calculator/tetdasf0ce?embed"
+# [2.5] IC level /valuations
+desmos-fig-iclevel: "https://www.desmos.com/calculator/a8b37ca2e2?embed"
+# [2.6] IC playground
+desmos-fig-icplay: "https://www.desmos.com/calculator/fe6160a5d7?embed"
+# [2.7] IC Cobb Douglas
+desmos-fig-icCD: "https://www.desmos.com/calculator/142c509574?embed"
+# [2.8] IC CES
+desmos-fig-icCES: "https://www.desmos.com/calculator/3233eb7c42?embed"
+# [2.9] 3D utility
+desmos-fig-3Dutil: "https://www.desmos.com/3d/cc2129eff2?embed"
+# [2.10] MRS
+desmos-fig-MRS: "https://www.desmos.com/calculator/147eeb4b8c?embed"
+# [3.1] Utility Max via Subst Out BC
+desmos-fig-umaxbc: "https://www.desmos.com/calculator/c3pmlwhig8?embed"
+# [3.2] Utility Max via MRS
+desmos-fig-umaxmrs: "https://www.desmos.com/calculator/65729369d1?embed"
+# [3.3] Graph Demand fn.
+desmos-fig-graphdemand: "https://www.desmos.com/calculator/ed2bc8ba29?embed"
+# [3.4] endowment
+desmos-fig-endowment: "https://www.desmos.com/calculator/98d537fdea?embed"
+# [3.5] labor supply
+desmos-fig-labor: "https://www.desmos.com/calculator/kuo8nmvf1p?embed"
+# [3.6] intertemporal choice
+desmos-fig-intertemporal: "https://www.desmos.com/calculator/6620dacd46?embed"
+# [4.1] IE/SE
+desmos-fig-iese: "https://www.desmos.com/calculator/1adfe314b9?embed"
+# [4.2] CV
+desmos-fig-cv: "https://www.desmos.com/calculator/79e3c4ffaa?embed"
+# [4.3] Compensated Demand and Compensating Variation
+desmos-fig-compensated: "https://www.desmos.com/calculator/h0wlmo7fjc?embed"
+# [5.1] production relations
+desmos-fig-prod: "https://www.desmos.com/calculator/mp4uqvso3i?embed"
+# [5.2] PPF 2D
+desmos-fig-ppf: "https://www.desmos.com/calculator/2f466db6d3?embed"
+# [5.3] average cost
+desmos-fig-avgcost: "https://www.desmos.com/calculator/3a2e81fae3?embed"
+# [5.4] supply of competitive firm
+desmos-fig-compsupply: "https://www.desmos.com/calculator/4c3328940d?embed"
+# [6.1] demand aggregation
+desmos-fig-demagg: "https://www.desmos.com/calculator/cwfnu61adt?embed"
+# [6.2] Demand-Supply Diagram and Aggregation
+desmos-fig-dsdiag: "https://www.desmos.com/calculator/6jvgzxuyr1?embed"
+# [6.3] Consumer and Producer Surplus in Competitive Market Equilibrium
+desmos-fig-surplus: "https://www.desmos.com/calculator/agh0pdxn9p?embed"
+# [7.1] Edgeworth Box
+desmos-fig-Edgeworth: "https://www.desmos.com/calculator/4dugf3gieh?embed"
+# [7.2] Edgeworth Box & PPF
+desmos-fig-ppfedge: "https://www.desmos.com/calculator/ck4jrvvbsk?embed"
+# [8.2] SWF
+desmos-fig-swf: "https://www.desmos.com/calculator/7ruq2rblpt?embed" 
+# [9.1] First Theorem of Welfare Economics
+desmos-fig-1theorem: "https://www.desmos.com/calculator/r6rawbymuv?embed" 
+# [9.3] 2nd Best
+desmos-fig-secbest: "https://www.desmos.com/calculator/kbk4q3pjsl?embed"
+# [10.4] FGT poverty measures
+desmos-fig-FGT: "https://www.desmos.com/calculator/joo8sc6gjl?embed"
+# [11.1] Externality
+desmos-fig-ext: "https://www.desmos.com/calculator/8402edcad5?embed"
+# [11.2] Pigou
+desmos-fig-pigou: "https://www.desmos.com/calculator/c50b69376f?embed"
+# [11.3] 2-firms cost minimization
+desmos-fig-2cost: "https://www.desmos.com/calculator/37626f367a?embed"
+# [12.1] (Marginal) Revenue and 1st Degree Price Discrimination
+desmos-fig-discrimination: "https://www.desmos.com/calculator/c54bc95131?embed"
+# [12.2] (Marginal) Revenue and Standard Monopoly
+desmos-fig-monopoly: "https://www.desmos.com/calculator/aru8jez2bl?embed"
+# [12.3] Double Marginalization
+desmos-fig-double: "https://www.desmos.com/calculator/j20tlrtrd5?embed"
+# [12.4] Natural Monopoly
+desmos-fig-natmono: "https://www.desmos.com/calculator/qdc6hlvyhj?embed"
+# [12.5] Natural Monopoly, increasing MC
+desmos-fig-natmono2: "https://www.desmos.com/calculator/ahaeq8iksu?embed"
+# [12.6] Subadditivity
+desmos-fig-subadd: "https://www.desmos.com/calculator/ad9c645ac0?embed"
+# [12.7] Price Regulation of Natural Monopoly
+desmos-fig-Ramsey: "https://www.desmos.com/calculator/pmgxrr7uar?embed"
+# [12.8] Bertrand Equilibrium
+desmos-fig-Bertrand: "https://www.desmos.com/calculator/a50229dbae?embed"
+# [12.9] Cournot Equilibrium
+desmos-fig-Cournot: "https://www.desmos.com/calculator/evtshylwfx?embed"
+# STUFF UNCATEGORIZED
+# UPF 2D
+desmos-fig-upf: "https://www.desmos.com/calculator/fvmobbrrb7?embed"
+# deprecated?
+#desmos-fig-EB1: "https://www.desmos.com/calculator/db14a4c27b?embed"
+#desmos-fig-Edgeworth: "https://www.desmos.com/calculator/obfjd53iic?embed"
