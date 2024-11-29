@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -31,10 +31,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
 <script src="index_files/libs/quarto-html/anchor.min.js"></script>
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="index_files/libs/bootstrap/bootstrap-8a79a254b8e706d3c925cde0a310d4f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <style>
 
       .quarto-title-block .quarto-title-banner h1,
@@ -177,7 +177,7 @@ University Minor Economics • Vrije Universiteit Amsterdam</div><p></p>
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">November 16, 2024</p>
+        <p class="date-modified">November 29, 2024</p>
       </div>
     </div>
       
@@ -427,7 +427,7 @@ Technical Remark
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>The present document was rendered using <a href="https://quarto.org">Quarto</a>. The <code>html</code> output was chosen to allow easy embedding of Desmos graphs and a host of other features that this format allows for online reading, among which suitable layout with table of contents navigation. Printing (including to .pdf) may however prove cumbersome.</p>
+<p>The present document was rendered using <a href="https://quarto.org">Quarto</a>. The <code>html</code> output was chosen to allow easy embedding of Desmos graphs and a host of other features that this format allows for online reading, among which suitable layout with table of contents navigation. Readers can also use automatic translation services available in their browser to read the document in some other language. Printing (including to .pdf) may however prove cumbersome.</p>
 </div>
 </div>
 </div>
@@ -4432,7 +4432,7 @@ Alternative Graphs
 <!-- SubSection........................................................ -->
 <section id="sec-risk" class="level2" data-number="13.1">
 <h2 data-number="13.1" class="anchored" data-anchor-id="sec-risk"><span class="header-section-number">13.1</span> Risk</h2>
-<p>Risk and uncertainty permeate people’s lives, and decisions need to be take in the face of risk or uncertainty. In what follows, we use risk and uncertainty interchangeably, even though it is common practice to make a distinction.</p>
+<p>Risk and uncertainty permeate people’s lives, and decisions need to be taken in the face of risk or uncertainty. In what follows, we use risk and uncertainty interchangeably, even though it is common practice to make a distinction.</p>
 <p>For modeling risk or uncertainty about a variable, consider a <em>risky prospect</em>, an uncertain but somehow quantifiable event with certain outcomes that materialize in the future. Consider two relevant dimensions:</p>
 <ol type="1">
 <li>an outcome space, and</li>
@@ -4443,13 +4443,13 @@ Alternative Graphs
 <p>If you are able to assign (subjective) probabilities (or beliefs) to those distinct outcomes, like { 0.4, 0.6 }, then you are considering a situation under risk. With a chance of 40% your income will be 20, with a chance of 60%, it will be 50. The assigned, subjective probabilities, are fixed numbers for you. If you are unable to do this, then you are considering a situation under uncertainty. This definition dates back to Frank <span class="smallcaps">Knight</span> (1921).</p>
 <p>We skip the philosophical discussion on whether decisionmakers are or are not able to assign these fixed probability numbers, and the deeper meaning of risk and uncertainty, but approach the issue from a practical point of view in order be able to quantify risk.</p>
 <p>Note that not only is { 20,50 } a complete listing of possibilities, but the assigned probabilities add up to unity (0.4+0.6=1).</p>
-<p>There is no uncertainty in any of these numbers. The uncertainty comes about by imagining a player Nature who randomly picks (draws) one of the outcome values with the associated probability. After the draw has taken place, again nothing is uncertain, because then we know what value has been drawn. In 100 draws, Nature chooses about 40 times “20” and about 60 times “50”. In infinitely many draws, “about” becomes “exactly”.</p>
+<p>There is no uncertainty in any of these numbers. The uncertainty comes about by imagining a player Nature who randomly picks (draws) one of the outcome values with the associated probability. After the draw has taken place, nothing is uncertain at all, because then we know what value has been drawn: uncertainty has been resolved. In 100 draws, Nature chooses about 40 times “20” and about 60 times “50”. In infinitely many draws, “about” becomes “exactly”.</p>
 <p>Hence,</p>
 <ul>
 <li>uncertainty and time are connected: what is uncertain <em>ex ante</em>, will be certain <em>ex post</em></li>
-<li>there is incomplete information—agents need to make a decision before uncertainty is resolved.</li>
+<li>there is imperfect information—agents need to make a decision before uncertainty is resolved.</li>
 </ul>
-<p>We can then refer to the risky prospect of future income as a random variable <span class="math inline">\(X\)</span> with a known distribution, and calculate its expected value <span class="math inline">\(E(X)\)</span> as <span class="math display">\[E(X) = 20 \cdot 0.4 + 50 \cdot 0.6 = 38.\]</span> The expected value in itself is a statistic that characterizes the central location of the distribution of all possible future incomes. It is not necessarily (and not in this example) a number that is part of the list of possible outcomes. There is variation about that central number, and we can use another statistic to quantify it. That’s the variance <span class="math display">\[\text{Var}(X) = E(X^2)-E(X)^2.\]</span> Its square root is known as the standard deviation <span class="math inline">\(\sigma(X) = \sqrt{\text{Var}(X)}.\)</span> Finally, note that these statistics, or moments, are fixed numbers in themselves (<span class="math inline">\(X\)</span> varies, but <span class="math inline">\(\text E (X)\)</span> and <span class="math inline">\(\text{Var} (X)\)</span> do not).</p>
+<p>Let’s refer to the risky prospect of future income as a random variable <span class="math inline">\(X\)</span> with a known distribution, and calculate its expected value <span class="math inline">\(E(X)\)</span> as <span class="math display">\[E(X) = 20 \cdot 0.4 + 50 \cdot 0.6 = 38.\]</span> The expected value in itself is a statistic that characterizes the central location of the distribution of all possible future incomes. It is not necessarily (and not in this example) a number that is part of the list of possible outcomes. There is variation about that central number, and we can use another statistic to quantify it. That’s the variance <span class="math display">\[\text{Var}(X) = E(X^2)-E(X)^2.\]</span> Its square root is known as the standard deviation <span class="math inline">\(\sigma(X) = \sqrt{\text{Var}(X)}.\)</span> Finally, note that these statistics, or moments, are fixed numbers in themselves (<span class="math inline">\(X\)</span> varies, but <span class="math inline">\(\text E (X)\)</span> and <span class="math inline">\(\text{Var} (X)\)</span> do not).</p>
 <p>In the above example, the variance is <span class="math inline">\(20^2 \cdot 0.4 + 50^2 \cdot 0.6 – 38^2 = 216\)</span> and the standard deviation is <span class="math inline">\(14.7\)</span>.</p>
 <!-- SubSection........................................................ -->
 </section>
@@ -4496,7 +4496,7 @@ Figure&nbsp;13.1: Risk Attitudes and Utility
 <div id="tbl-eu" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-eu-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;13.1: Outcome Space, Expected Value, and Expected Utility
+Table&nbsp;13.1: Outcome Space, Expected Value, and Expected Utility (for <span class="math inline">\(u(x) =\sqrt{x}\)</span>)
 </figcaption>
 <div aria-describedby="tbl-eu-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
@@ -4504,14 +4504,14 @@ Table&nbsp;13.1: Outcome Space, Expected Value, and Expected Utility
 <col style="width: 16%">
 <col style="width: 16%">
 <col style="width: 15%">
-<col style="width: 30%">
+<col style="width: 15%">
 </colgroup>
 <thead>
 <tr class="header">
 <th><span class="math inline">\(s\)</span></th>
 <th><span class="math inline">\(\pi_s\)</span></th>
 <th><span class="math inline">\(x_s\)</span></th>
-<th><span class="math inline">\(u(x_s)=\sqrt{x_s}\)</span></th>
+<th><span class="math inline">\(u(x_s)\)</span></th>
 </tr>
 </thead>
 <tbody>
@@ -4519,31 +4519,31 @@ Table&nbsp;13.1: Outcome Space, Expected Value, and Expected Utility
 <td>1</td>
 <td>0.90</td>
 <td>160,000</td>
-<td><pre><code>   400</code></pre></td>
+<td>400</td>
 </tr>
 <tr class="even">
 <td>2</td>
 <td>0.06</td>
 <td>90,000</td>
-<td><pre><code>   300</code></pre></td>
+<td>300</td>
 </tr>
 <tr class="odd">
 <td>3</td>
 <td>0.03</td>
 <td>40,000</td>
-<td><pre><code>   200</code></pre></td>
+<td>200</td>
 </tr>
 <tr class="even">
 <td>4</td>
 <td>0.01</td>
 <td>10,000</td>
-<td><pre><code>   100</code></pre></td>
+<td>100</td>
 </tr>
 <tr class="odd">
 <td><span class="math inline">\(E()\)</span></td>
 <td></td>
 <td>150,700</td>
-<td><pre><code>   385</code></pre></td>
+<td>385</td>
 </tr>
 </tbody>
 </table>
@@ -4649,15 +4649,15 @@ Exercise
 </section>
 <section id="sec-insurance" class="level2" data-number="13.5">
 <h2 data-number="13.5" class="anchored" data-anchor-id="sec-insurance"><span class="header-section-number">13.5</span> Insurance</h2>
-<p>Risk averse agents are willing to pay for insurance since they have a positive risk premium. Insurance takes the financial risk away from the agent ex post and transfers it to the insurer, in the sense that the insurer pays the agent who suffered a loss an indemnity, a compensation payment in money. Insurance does not remove the damage risk and does not, in the first place, change the probabilities of damage occuring. Since insurance involves a contract between the insurer and the insuree, the insurer will only insure the agent if he pays a premium before any damage might occur (i.e., you cannot insure a house that is on fire).</p>
-<p>Insurance can be full or partial—partial insurance involves that only part of the necessary compensation is paid in case of loss to restore utility, full insurance covers the loss fully; hence, a full insurance contract replaces the risky prospect <span class="math inline">\(X\)</span> with its own expected value, <span class="math inline">\(\text{E}(X)\)</span>.</p>
+<p>Risk averse agents are willing to pay for insurance since they have a positive risk premium. Insurance takes the financial risk away from the agent ex post and transfers it to the insurer, in the sense that the insurer pays and indemnity to the agent who suffered a loss, i.e., makes a compensation payment in money. Insurance does not remove the damage risk and does not, in the first place, change the probabilities of damage occuring. Since insurance involves a contract between the insurer and the insuree, the insurer will only insure the agent if he pays a premium before any damage might occur (i.e., you cannot insure a house that is on fire).</p>
+<p>Insurance can be full or partial—partial insurance involves that only part of the necessary compensation is paid in case of loss to restore utility, full insurance covers the loss fully.</p>
 <p>An insurance contract can have additional parameters besides the indemnity and the premium that are often encountered in practice. For partial insurance the following are common:</p>
 <ul>
 <li>deductible: insuree’s uninsured amount</li>
 <li>coinsurance: percentage of loss borne by the insuree.</li>
 </ul>
 <p>An insurance industry may have a similar market structure as other industries, and may be competitive or non-competitive (e.g.&nbsp;monopolistic or oligopolistic). We shall assume it is competitive, so that premiums charged reflect the marginal cost of insurance. Premiums received from all insurees will determine revenue. What contributes to the cost of the insurer are in the first place the indemnities to be paid for submitted damage claims that occur with a known probability, and in the second place administration costs. If there are no administration costs, then cost equal indemnities paid. Since competition will drive expected insurance profits to zero, revenue equals cost, and hence premiums will be proportional to the probability of loss occurring. Such insurances are called <em>actuarially fair</em>: the premium is only a reflection of the true underlying chance of damage happening.</p>
-<p>For such actuarially fair insurance contracts, risk averse agents want to sign a full insurance contract that obliges them to pay a premium in exchange for having the monetary consequences of a risk fully covered.</p>
+<p>For such actuarially fair insurance contracts, risk averse agents want to sign a full insurance contract that obliges them to pay a premium in exchange for having the monetary consequences of a risk fully covered. A full insurance contract then effectively replaces the risky prospect <span class="math inline">\(X\)</span> with its own expected value, <span class="math inline">\(\text{E}(X)\)</span>.</p>
 <p>The pricing of such contracts uses statistical averaging. If there are many similar insured agents that <em>independently</em> experience the occurrence of a loss, then the insurer calculates the expected value of indemnities to be paid as sample average over all insurees. That is, if 150 insured agents each expect a loss of 10 with probability 20%, the expected loss per insuree is 2, and the expected aggregate loss is <span class="math inline">\(150\times 0.2 \times 10 = 300\)</span>. Nature chooses which agents will experience the loss, so that ex post on average 30 people experience a loss of 10, and submit a total damage claim of 300. The premium then is <span class="math inline">\(300/150=2\)</span>, to be paid ex ante. The insurer receives premium revenue of 300 and pays out indemnities worth 300, hence makes zero profit under competition. Assuming the insurer is risk neutral since it can spread the risk across the population, implies insurance will exist to improve the welfare of the risk averse community.</p>
 <p>There are, however, important threats.</p>
 <ol type="1">
@@ -4680,8 +4680,43 @@ Exercise
 <p>A related, but different phenomenon can emerge when there is heterogeneity in risk aversion in the population, and individual risk aversion is negatively correlated with individual loss probabilities. In that case, the ones that have a high demand for insurance are actually the ones that are least costly to the insurer. This may lead to <em>advantageous selection</em>, and actually be a non-problem (unless it is associated with overinsurance).</p>
 <p>As for moral hazard, the problem is that the contract is signed before individuals choose their <em>behavior</em>. That is, the relevant risk or claim behavior (do you take precaution, do you get vaccinated, do you wear appropriate clothing, do you submit claims exceeding the damage etc.) lies in the future and the contract cannot condition on it. The customer has again an informational advantage.</p>
 <p>The literature typically distinguishes two forms of moral hazard: <em>ex ante</em> moral hazard and <em>ex post</em> moral hazard. These terms relate to when the damage occurs relative to choice of behavior. With <em>ex ante</em> moral hazard, the risk behavior is chosen before the damage can materialize. This often implies that the loss probability increases after signing the contract because the insured does not take appropriate precaution or effort to keep this probability in check (e.g.&nbsp;don’t lock you bicycle if in a hurry when you have bicycle theft insurance). Hence, the loss probability is an endogenous choice variable of the insuree and is chosen after having signed the contract with the insurer. With <em>ex post</em> moral hazard, the underlying actual loss probabilities may not necessarily change, but the size of the claims submitted may change. For instance losses that occur are exaggerated (inflated) or multiple claims are submitted for the same event. Hence, the claim size is a choice of the insuree, even if we consider the theoretical case that the insured event is associated with a loss of fixed size.</p>
-<p>The consequence of either form of moral hazard is that premiums will (have to) rise for the individual, and because of pooling, also for everybody else. In other words, there is an externality present that spills over to the community at large.</p>
-<p>Empirically, adverse selection and moral hazard are hard to distinguish: both imply a positive correlation of being insured and experiencing a loss. In reality, it may also occur that the insurer is better able to judge probabilities, as many individuals are overinsured (have multiple insurances for the same risk) or choose excessive cover. Much of the economics literature abstracts from such aspects. Conversely, insurers can learn one thing or other from repeated interaction with the same individuals over time. For instance, car insurance works with bonus/malus points applied to past claiming behavior (claim-free years), and hence can distinguish between the good and the bad drivers to some extent (heterogeneity in loss probabilities), or give strong incentives for ‘good claiming behavior’ (ex-post moral hazard). Private insurance markets also come up with ways of trying to ‘screen’ insurance applicants before offering a contract, and to limit moral hazard and adverse selection by offering partial insurance, so that full insurance at actuarially fair prices is unavailable.</p>
+<p>The following figures exemplify the different concepts using so-called game trees. We consider the moves of two players, Insurer and Customer, and the decision of a random device called Nature. Insurer always moves first and offers a contract specifying a premium and a coverage. Customer can (1) accept the contract, pays premium and receives and indemnity when loss occurs; or can (2) reject the contract, not pay a premium, and not receive an indemnity when loss occurs.</p>
+<p>We consider a numerical example with wealth of 110, a possible loss of 50, a contract specifying premium of 10, and offering a coverage of 100% (full insurance: in case that loss of 50 occurs to an insured customer the insurer pays an indemnity of 50). Premiums have to be paid after a contract has been signed, but before anyone knows whether loss will occur. In case of rejection of the contract, two things can happen: Nature will draw whether loss occurs (with probability 10%) or not (with probability 90%). If it does occur, the endpoints of the branches of the tree show the payoffs: 110 (no loss) and 60 (loss of 50 has occurred).</p>
+<div id="fig-mha" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-mha-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;13.3: Ex Ante Moral Hazard
+</figcaption>
+<div aria-describedby="fig-mha-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/mha.jpg" class="img-fluid figure-img" style="width:75.0%">
+</div>
+</figure>
+</div>
+<p>Moral hazard has Customer move second to accept or reject the contract, and then decide how to act. The rejection branches are as just described. When accepted, the premium of 10 is paid, reducing wealth to 100. In <a href="#fig-mha" class="quarto-xref">Figure&nbsp;13.3</a>, Customer can display ex ante moral hazard: the loss probability increases from 10 to 30%. The payoffs only depend on <em>whether</em> loss occurs, but not on the probabilities themselves. So the branches going off from the Nature nodes occur with different probabilities, but the monetary values are independent of moral hazard. In case of no loss, therefore, the payoff is 100, in case of loss, the payoff is likewise 100 (50 after loss occurs, plus 50 as payment received from the insurer). In deciding what to do, Customer will not only consider the highest possible payoff (110), but also the variation (no variation in case of insurance, high variation in case of no insurance). Risk aversion (shape of the utility function with which the payoffs are being evaluated) may influence that choice.</p>
+<div id="fig-mhp" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-mhp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;13.4: Ex Post Moral Hazard
+</figcaption>
+<div aria-describedby="fig-mhp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/mhp.jpg" class="img-fluid figure-img" style="width:75.0%">
+</div>
+</figure>
+</div>
+<p>In <a href="#fig-mhp" class="quarto-xref">Figure&nbsp;13.4</a>, Customer can display ex post moral hazard: whereas the loss probability stays at 10%, the payoffs depend on whether Customer chooses to exaggerate the claim. The contract may specify: we honor all claims at face value, then the customer could choose to claim 60 after a loss of 50 has occurred (perhaps so as to get the money back of the premium paid).</p>
+<div id="fig-as" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-as-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;13.5: Adverse Selection
+</figcaption>
+<div aria-describedby="fig-as-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/as.jpg" class="img-fluid figure-img">
+</div>
+</figure>
+</div>
+<p>In <a href="#fig-as" class="quarto-xref">Figure&nbsp;13.5</a>, Nature moves first. Nature decides (perhaps with probability 50:50) that Insurer will offer the contract to a high-risk or a low-risk Customer. These two customer types have inherently different loss probabilities (individual risks) of 30% and 10%. Payoffs are then determined by a draw by Nature, using type-specific probabilities.</p>
+<p>Our very stylized game trees simply serve to illustrate the structure of the problem, but do not present the solution (this leads a little too far for our purposes, since it will depend on, among others, utility functions, but also objectives of the insurer who chooses what contract to offer). The market equilibrium consequence of adverse selection and either form of moral hazard, however, typically involves that premiums will (have to) rise for the individual, and because of pooling, also for everybody else. In other words, there is an externality present that spills over to the community at large.</p>
+<p>Empirically, adverse selection and moral hazard are hard to distinguish: both imply a positive correlation of being insured and experiencing a loss. In reality, it may also occur that the insurer is better able to judge probabilities, as many individuals are overinsured (have multiple insurances for the same risk) or choose excessive cover. Conversely, insurers can learn one thing or other from repeated interaction with the same individuals over time. For instance, car insurance works with bonus/malus points applied to past claiming behavior (claim-free years), and hence can distinguish between the good and the bad drivers to some extent (heterogeneity in loss probabilities), or give strong incentives for ‘good claiming behavior’ (ex-post moral hazard). Private insurance markets also come up with ways of trying to ‘screen’ insurance applicants before offering a contract, and to limit moral hazard and adverse selection by offering partial insurance, so that full insurance at actuarially fair prices is unavailable.</p>
 <p>In fact, real-world insurance is almost never actuarially fair, since real opportunity cost need to be incurred when insuring people. In the literature, the associated costs are called ‘loadings’, these are cost (or marginal cost) mark-ups over and above the cost associated with indemnifying claimed losses.</p>
 <p>Readers are referred to the excellent survey by <a href="https://www.aeaweb.org/articles?id=10.1257/jep.25.1.115">Einav and Finkelstein (2011)</a> for details on how adverse selection, advantageous selection and moral hazard may be depicted in a simple demand-supply diagram, whose construction depends on underlying structural assumptions about the distribution (heterogeneity) of risk and of risk attitudes. The equilibrium, inefficiencies (welfare consequences), but also policy options will depend in addition on the size and importance of load factors. The same survey also considers ways to go beyond the simple conclusion that a positive correlation between riskiness and insurance is indicative of some sort of asymmetric information, when looking at empirical data.</p>
 <!-- SubSection........................................................ -->
@@ -4692,7 +4727,7 @@ Exercise
 <p>Social insurances also often avail themselves of a policy parameter that is unavailable in private insurance markets: a mandate to participate. A mandate makes it obligatory for individuals to pay a premium against at least some base level of coverage, like it or not. Such mandates are known from public or publically regulated health insurance, and quite a number of income insurances such as unemployment, sickness, disability insurances or old-age retirement insurances (pensions). What a mandate tries to accomplish is to break the vicious circle that leads to gross underprovision (or unaffordability) of insurance, or even to a missing market (the ‘death spiral’ described earlier). Mandates help safeguarding equality of access to health and income insurances.</p>
 <p>Whether this is a good idea or not is a priori unclear, even if mandating may mean offering insurance at lower than (inefficiently high) market prices on average. Since a mandate also implies that those who would not choose to be insured at any price are forced to spend money on a good they don’t value, mandates are hardly <span class="smallcaps">Pareto</span> improvements, so one would need to appeal to social welfare criteria that balance off the interests of the more-cheaply and voluntarily insured against those of the the involuntarily insured subgroups in the population.</p>
 <p>Social insurance mandates incorporate principles of solidarity into the system in a way that private markets would not find beneficial. There are two dimensions. One is so-called <em>risk solidarity</em>, whereby insurance premiums <em>are not</em> fully differentiated according to observable risk classes, even though from an efficiency point of view (and to break the adverse selection associated with pooling) this would be called for. This can, for instance, occur where health risks are not priced differentially according to gender, even though health treatment cost could be very much gender specific. A similar argument is sometimes made in favor of keeping deductibles or elements of co-insurance low in public insurances, even though they could be used as suitable instruments to combat ex-ante moral hazard. The other dimension is <em>income solidarity</em> whereby premiums <em>are</em> differentiated according to income of the insured, typically the well-to-do paying more than the poor, even though there is no a priori reason to assume that the rich consume more health services than the poor, or make a larger claim to unemployment insurance, all else equal (including risk probabilities). Social insurance pricing is actively used for redistribution by governments around the globe, and mandates help keeping such a system in place.</p>
-<p>Social insurance mandates have one additional rationale that private markets with voluntary participation tend to overlook: dealing with individuals that are boundedly rational and that will make decisions which are not in their own best interest. The present lecture notes are ill-equipped to explain the necessary detail, but evidence from economic psychologists points to many people making decisions for their own future now that they would regret to have taken when the future arrives and when they have to face the consequences of their prior actions. One example is retirement savings. Rational individuals that know or can estimate with some confidence how long they may live, can use consumption smoothing to build up savings buffers for the non-working retirement period. Compare <strong>?@sec-intertemporal</strong>. Apart from the uncertainty about how long one actually will live, the economic-psychology literature emphasizes that individuals have problems with effectively committing to long-term savings plans. It takes effort, foresight and discipline to put money aside and keep it for the old day, and to resist the temptation ‘to spend it now while you can’. A mandate that forces people into pension participation solves that issue. Interested readers that want to know more about such and related psychological aspects in public policy are referred to the relevant chapters in the excellent little book by <a href="https://www.brookings.edu/wp-content/uploads/2016/07/policyandchoice_book.pdf">Congdon et al (2011)</a>.</p>
+<p>Social insurance mandates have one additional rationale that private markets with voluntary participation tend to overlook: dealing with individuals that are boundedly rational and that will make decisions which are not in their own best interest. The present lecture notes are ill-equipped to explain the necessary detail, but evidence from economic psychologists points to many people making decisions for their own future now that they would regret to have taken when the future arrives and when they have to face the consequences of their prior actions. One example is retirement savings. Rational individuals that know or can estimate with some confidence how long they may live, can use consumption smoothing to build up savings buffers for the non-working retirement period. Apart from the uncertainty about how long one actually will live, the economic-psychology literature emphasizes that individuals have problems with effectively committing to long-term savings plans. It takes effort, foresight and discipline to put money aside and keep it for the old day, and to resist the temptation ‘to spend it now while you can’. A mandate that forces people into pension participation solves that issue. Interested readers that want to know more about such and related psychological aspects in public policy are referred to the relevant chapters in the excellent little book by <a href="https://www.brookings.edu/wp-content/uploads/2016/07/policyandchoice_book.pdf">Congdon et al (2011)</a>.</p>
 <!-- SECTION ********************************************************** -->
 </section>
 </section>
@@ -4806,8 +4841,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -4918,7 +4951,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
